@@ -35,7 +35,7 @@ prn_input = wait.until(
 )
 
 # Enter the hardcoded PRN
-prn = '23070126001'
+prn = '23000000000'
 prn_input.clear()
 prn_input.send_keys(prn)
 
@@ -50,7 +50,10 @@ seat_input = wait.until(
     EC.presence_of_element_located((By.ID, "txt4"))
 )
 seat_input.clear()
-seat_input.send_keys("526501")
+
+# change the following to the acutual seat number
+seat_input.send_keys("50000")
+
 
 # Click the View button
 view_button = wait.until(
