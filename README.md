@@ -17,7 +17,7 @@ Correlation studies help you understand which subjects contribute more positivel
 
 The report includes variance and skewness in GPA statistics to help determine whether the grade distribution is symmetric or skewed.
 
-# Why is this important?
+# Why is this relevant?
 
 Because the uni uses a percentile based grading system, where fixed percentages of students get each grade like the top 3% get a 10, the next 12% get a 9, and so on.
 
